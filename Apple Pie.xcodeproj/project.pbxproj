@@ -12,6 +12,7 @@
 		3AFA1EB0203735EE00DDD720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA1EAE203735EE00DDD720 /* Main.storyboard */; };
 		3AFA1EB2203735EE00DDD720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA1EB1203735EE00DDD720 /* Assets.xcassets */; };
 		3AFA1EB5203735EE00DDD720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA1EB3203735EE00DDD720 /* LaunchScreen.storyboard */; };
+		3AFA1EBD203747F800DDD720 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA1EBC203747F800DDD720 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3AFA1EB1203735EE00DDD720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFA1EB4203735EE00DDD720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AFA1EB6203735EE00DDD720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFA1EBC203747F800DDD720 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3AFA1EAA203735EE00DDD720 /* AppDelegate.swift */,
 				3AFA1EAC203735EE00DDD720 /* ViewController.swift */,
+				3AFA1EBC203747F800DDD720 /* Game.swift */,
 				3AFA1EAE203735EE00DDD720 /* Main.storyboard */,
 				3AFA1EB1203735EE00DDD720 /* Assets.xcassets */,
 				3AFA1EB3203735EE00DDD720 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFA1EAD203735EE00DDD720 /* ViewController.swift in Sources */,
+				3AFA1EBD203747F800DDD720 /* Game.swift in Sources */,
 				3AFA1EAB203735EE00DDD720 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,11 +281,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X5EM2CX74;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uva.minor.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = uva.minor.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -292,11 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X5EM2CX74;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uva.minor.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = uva.minor.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
